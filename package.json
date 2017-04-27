@@ -1,7 +1,7 @@
 {
-  "name":"Login",
+  "name":"Login-Training",
   "description": "LoginTraining",
-  "version": "1.1.0",
-  "author": "I don't Know",
+  "version": "1.0.0",
+  "author": "Angel",
   "main": "index.html",
 }
