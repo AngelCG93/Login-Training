@@ -6,7 +6,7 @@ gulp.task('watch', () => {
   lr.listen(35729, () => {
     console.log('... LiveReload on localhost:35729\n');
   });
-  gulp.watch(['index.html'], evt => {
+  gulp.watch(['index.html','training.html'], evt => {
     console.log(evt.path);
     lr.changed({
       body: {
