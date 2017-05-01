@@ -33,9 +33,10 @@ $app->get('/hello_world', 'hello_world');
 $app->run();
 //------------------------------------------------------------------------------
 // GET functions
-function hello_world(){
-  sleep(3);
-  echo "Hello World from login";
+function hello_world() {
+  $sql = "SELECT * FROM users";
+  $result = query_get($sql);
+  echo json_encode($result, JSON_UNESCAPED_UNICODE);
 };
 //------------------------------------------------------------------------------
 // POST functions
