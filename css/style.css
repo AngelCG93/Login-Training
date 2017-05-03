@@ -1,0 +1,8 @@
+.main p{
+  font-family: arial black;
+  font-size: 14px;
+}
+.text-center input{
+  text-align: center;
+  border-radius: 5px;
+}
