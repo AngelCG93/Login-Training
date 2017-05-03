@@ -3,52 +3,49 @@
 <head>
   <meta charset="utf-8">
   <link href="lib/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   <title>Training Login</title>
   <script src="livereload.js?host=localhost&port=35729"></script>
   <script src="lib/jquery/3.2.1/jquery.min.js"></script>
   <script src="lib/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background:#F5F5DC">
   <div class="text-center">
-    <h2>Login Training</h2>
-    <div>
-      <p>Username</p>
-      <input type="text">
-      <br>
-      <p>Password</p>
-      <input type="password">
-      <br>
-      <br>
+    <form>
+      <div class="form-group">
+        <h2>Login Training</h2>
+      </div>
+      <div class="form-group">
+        <p>Username:</p>
+        <input type="text" style="center" placeholder="Usarname,Email">
+      </div>
+      <div class="form-group">
+        <p>Password:</p>
+        <input type="password" placeholder="Password">
+      </div>
+      <div class="checkbox">
+        <input type="checkbox">Remember me
+      </form>
+    </div>
+    <div class="form-group">
       <a href="training.html">
-        <button class="btn btn-info">Login</button>
+        <button class="btn btn-info">Sign in</button>
       </a>
     </div>
+    <h5>no Account?
+      <a href="createuser.html">Create One!
+      </a>
+    </h5>
   </div>
-<br>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="panel panel-default">
-        <div class="panel-heading">Panel heading without title</div>
-        <div class="panel-body">
-          Panel content
-        </div>
-      </div>
-    </div>
+  <br><br><br><br>
+  <div class="main">
+    <footer class="text-center">
+      For support please contact:
+      <a>acampos@progresslighting.com
+      </a>
+      <br><br>
+      <p>Login Training</p>
+    </footer>
   </div>
-</div>
-
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Panel title</h3>
-    </div>
-    <div class="panel-body">
-      Panel content
-    </div>
-  </div>
-
-  <footer class="text-center">
-    For support please contact: <a>acampos@progresslighting.com</a>
-  </footer>
 </body>
 </html>
